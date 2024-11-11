@@ -1,0 +1,11 @@
+<div class="user_asking">
+<%=@user_input%>
+<p>- You</p>
+</div>
+
+<div class="coach_answering" style="background-color: yellow;">
+<%=@answer_coach%>
+<p>- Your Stupid Coach</p>
+</div>
+
+<%= link_to "ask something again", ask_path, style: "text-decoration: none;" %>
